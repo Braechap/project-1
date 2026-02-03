@@ -1,1 +1,32 @@
 /* Place CSS styles here */
+body {
+    background-color: rgb(226, 186, 172);
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: azure;
+}
+
+img {
+    width: 250px;
+    margin-right: 16px;
+    border: 6px ridge #f1f2f6;
+      display: block;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    color: azure;
+    -webkit-text-stroke: 1px rgb(235, 232, 232);
+}
+.imagewrapper {
+    display:flex;
+    justify-content: center;
+} 
+.imagewrapper img {
+    width: 400px;
+}
+
+
+  
+
