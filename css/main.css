@@ -1,23 +1,44 @@
 /* Place CSS styles here */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: rgb(226, 186, 172);
+    background-color: rgb(96, 122, 98);
     font-size: large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: azure;
 }
 
 img {
-    width: 250px;
-    margin-right: 16px;
-    border: 6px ridge #f1f2f6;
+    width: 150px;
+    margin-right: 10px;
+    border: 3px ridge #f1f2f6;
       display: block;
 }
 
 h1{
+    font-size:xx-large ;
     text-align: center;
     font-style: italic;
-    color: azure;
+    color: rgb(218, 126, 126);
     -webkit-text-stroke: 1px rgb(235, 232, 232);
+}
+
+h2{ 
+    font-size:x-large;
+    text-align: center;
+    -webkit-text-stroke: 1px #f1f2f6;
+    color:rgb(248, 123, 123)
+    
+}
+
+h3{
+    font-size: xx-large;
+    text-align: center;
+    -webkit-text-stroke: #f1f2f6;
+    color: rgb(248, 123, 123)
+
 }
 .imagewrapper {
     display:flex;
@@ -27,6 +48,47 @@ h1{
     width: 400px;
 }
 
+h1{
+    border: 10px #dc83b6;
+    padding-top: 10px;
+}
 
+div {
+    background-color: rgb(247, 123, 123);
+    text-align: center;
+    padding: 50px;
+    max-width: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 40px auto;
+    border: 3px solid #f6ecec;
+    border-radius: 20px;
+}
+
+.main-title {
+  font-size: 3rem;      
+  text-align: center;  
+}
+
+.sub-title {
+  font-size: 1.5rem;  
+  text-align: left;    
+}
+
+a {
+  color: #945528da; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  font-size: 1.5rem;
+  margin-bottom: 6px;
+}
   
 
